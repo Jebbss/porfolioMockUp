@@ -1,0 +1,40 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+}
+.titleHeader{
+  display: flex;
+  justify-content: space-between;
+}
+.title{
+  text-align: right;
+}
+.main{
+  margin-right: 10%;
+}
+.lrg-img{
+  width: 100%
+}
+.colors {
+  text-align: center;
+  margin: auto;
+  margin-top: 130px;
+}
+.header-line {
+  height: 5px;
+  margin: 5px;
+  background-color: #7d97ad;
+}
+.smallBox {
+  height: 100px;
+  width: 100px;
+}
+.blue {
+  background-color: #02b3e4;
+}
+.dark-blue {
+  background-color: #2d3c49;
+}
+.grey {
+  background-color: #7d97ad;
+}
