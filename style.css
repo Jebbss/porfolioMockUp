@@ -38,3 +38,8 @@
 .grey {
   background-color: #7d97ad;
 }
+.projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  grid-template-rows: auto;
+}
