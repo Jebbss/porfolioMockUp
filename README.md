@@ -7,3 +7,4 @@ TODO
 - [ ] Style text
 - [ ] Add more meaningful images
 - [ ] Add more projects
+- [ ] Responsive
