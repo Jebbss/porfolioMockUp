@@ -1,19 +1,19 @@
-.container{
+.container {
   display: grid;
   grid-template-columns: 1fr 5fr;
   margin: 5%;
 }
-.titleHeader{
+.titleHeader {
   display: flex;
   justify-content: space-between;
 }
-.title{
+.title {
   text-align: right;
 }
-.main{
+.main {
   margin: auto;
 }
-.lrg-img{
+.lrg-img {
   width: 100%
 }
 .colors {
@@ -45,12 +45,12 @@
   max-height: 90%;
   background-color: #7d97ad;
 }
-.projects{
+.projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: auto;
 }
-.project{
+.project {
   margin: auto;
 }
 
@@ -60,7 +60,7 @@
   }
 }
 @media(max-width: 980px) {
-  .titleHeader{
+  .titleHeader {
     font-size: 10px;
   }
   .smallBox {
